@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    background-color: rgb(101, 102, 143);
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container {
+    width: 85vw;
+    height: 84vh;
+    display: flex;
+    background-color: cadetblue;
+    flex-direction:column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-style: inset;
+    border-color: black;
+    border-width: 50px;
+}
+
+.button {
+    width: 60vw;
+    height: 20vh;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 10vw;
+}
+
+.number {
+    width: 50vw;
+    height: 20vh;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    font-size: 10vw;
+    background-color: chartreuse;
+    border-style: outset;
+    border-color: black;
+    border: width 15px;;
+}
+
+.inbutton {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 100%;
+    border-style: outset;
+    border-color: black;
+    border: width 15px;;
+    background-color: darkgreen;
+}
